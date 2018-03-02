@@ -2,7 +2,8 @@
 
 This is a sample todo app built with React Native for sole purposes to understand React Native.
 
-![alt screnshot of app](https://imgur.com/a/hYiVZ)
+![simulator screen shot - iphone 8](https://user-images.githubusercontent.com/19292575/36895673-9d5ff69a-1dc4-11e8-984f-e055226371ba.png)
+
 
 # Packages Used
 
