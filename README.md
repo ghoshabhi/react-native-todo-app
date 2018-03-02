@@ -2,6 +2,8 @@
 
 This is a sample todo app built with React Native for sole purposes to understand React Native.
 
+![alt screnshot of app](https://imgur.com/a/hYiVZ)
+
 # Packages Used
 
 * [ramda.js](ramdajs.com)
