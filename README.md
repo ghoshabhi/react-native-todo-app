@@ -3,11 +3,11 @@
 This is a sample todo app built with React Native for sole purposes to understand React Native.
 
 <div>
-<img style="margin: 20" src="https://user-images.githubusercontent.com/19292575/36933159-76cfff0a-1e89-11e8-8a52-985869a08476.png" width="200" height="400">
+<img style="margin: 20" src="https://user-images.githubusercontent.com/19292575/36933159-76cfff0a-1e89-11e8-8a52-985869a08476.png" width="250" height="450">
 
-<img style="margin: 20" src="https://user-images.githubusercontent.com/19292575/36933160-7a2f33e6-1e89-11e8-8365-a83d4bb7f57b.png" width="200" height="400" />
+<img style="margin: 20" src="https://user-images.githubusercontent.com/19292575/36933160-7a2f33e6-1e89-11e8-8365-a83d4bb7f57b.png" width="250" height="450" />
 
-<img style="margin: 20" src="https://user-images.githubusercontent.com/19292575/36933161-7a4bf328-1e89-11e8-927f-d6b8619c665e.png" width="200" height="400" />
+<img style="margin: 20" src="https://user-images.githubusercontent.com/19292575/36933161-7a4bf328-1e89-11e8-927f-d6b8619c665e.png" width="250" height="450" />
 
 </div>
 
