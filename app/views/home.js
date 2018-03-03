@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity, Alert } from 'react-native';
 import { find, propEq, keys, has, assoc } from 'ramda';
 
 import TodoList from '../components/TodoList';
@@ -15,10 +15,10 @@ class App extends Component {
   state = {
     newTodoValue: '',
     todos: [
-      { id: 1, todoText: '👋 Meet and Greet', status: 'i' },
-      { id: 2, todoText: '🔈 Full Stack Nanodegree', status: 'i' },
-      { id: 3, todoText: '👨🏻‍💻 Current Work', status: 'i' },
-      { id: 4, todoText: '🛠 React Native Tools', status: 'i' }
+      // { id: 1, todoText: '👋 Meet and Greet', status: 'i' },
+      // { id: 2, todoText: '🔈 Full Stack Nanodegree', status: 'i' },
+      // { id: 3, todoText: '👨🏻‍💻 Current Work', status: 'i' },
+      // { id: 4, todoText: '🛠 React Native Tools', status: 'i' }
     ]
   };
 
@@ -47,6 +47,10 @@ class App extends Component {
 
   handleOnAddNewTodo = () => {
     const { todos, newTodoValue } = this.state;
+    if (newTodoValue.length < 5) {
+      Alert.alert('Empty Todo', 'Enter at least 4 or more characters!');
+      return;
+    }
     const newTodo = {
       id: todos.length + 1,
       todoText: newTodoValue,
