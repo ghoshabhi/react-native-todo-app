@@ -9,12 +9,15 @@
     "flow:stop": "flow stop"
   },
   "rnpm": {
-    "assets": ["./app/assets/fonts"]
+    "assets": [
+      "./app/assets/fonts"
+    ]
   },
   "dependencies": {
     "ramda": "^0.25.0",
     "react": "^16.3.0-alpha.1",
     "react-native": "0.54.0",
+    "react-native-navigation": "^1.1.393",
     "react-native-vector-icons": "^4.5.0"
   },
   "devDependencies": {
