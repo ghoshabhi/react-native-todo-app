@@ -1,6 +1,6 @@
 # React Native Todo App
 
-This is a sample todo app built with React Native for sole purposes to understand React Native.
+This is a sample todo app built with React Native for sole purposes of learning the ReactNative framework and practice different methods on building a mobile app.
 
 <div>
 <img style="margin: 20" src="https://user-images.githubusercontent.com/19292575/36933159-76cfff0a-1e89-11e8-8a52-985869a08476.png" width="250" height="450">
@@ -42,6 +42,7 @@ Start the packager by running the following commands. Make sure you have Android
 
 # Packages Used
 
+* [wix/react-native-navigation](https://wix.github.io/react-native-navigation)
 * [ramda.js](ramdajs.com)
 * [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
