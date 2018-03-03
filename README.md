@@ -47,6 +47,8 @@ Start the packager by running the following commands. Make sure you have Android
 
 # Roadmap
 
-* [ ] Add Navigation
+* [x] Add Navigation
+* [ ] Add a screen to show details on Todo
+* [ ] Use `styled-component` to style the app
 * [ ] Build a backend API using Node and MongoDB to power the app for multiple users
 * [ ] Use `flow`
