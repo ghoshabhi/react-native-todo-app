@@ -7,7 +7,7 @@ const Input = props => (
     onChangeText={props.onChangeNewTodoText}
     value={props.newTodoValue}
     underlineColorAndroid={'transparent'}
-    placeholder={'Enter a Todo Item'}
+    placeholder={'Enter a Todo Item...'}
     placeholderTextColor={'#5ab3b3'}
   />
 );
@@ -21,7 +21,8 @@ const styles = StyleSheet.create({
     color: '#5ab3b3',
     justifyContent: 'center',
     alignItems: 'center',
-    fontSize: 18,
+    fontFamily: 'FiraCode-Regular',
+    fontSize: 16,
     paddingHorizontal: 20,
     paddingVertical: 10,
     marginRight: 10

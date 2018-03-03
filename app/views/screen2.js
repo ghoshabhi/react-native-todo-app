@@ -1,9 +1,29 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
-const Screen2 = () => (
+const Screen2 = props => (
   <View style={styles.container}>
-    <Text style={{ color: '#fff' }}>Screen 2</Text>
+    <Text style={{ fontSize: 20, marginBottom: 20, color: '#fff' }}>
+      Screen 2
+    </Text>
+    <TouchableOpacity
+      style={{
+        backgroundColor: '#fff',
+        padding: 15,
+        borderRadius: 8,
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}
+      onPress={() =>
+        props.navigator.showModal({
+          screen: 'TodoApp.ModalScreen',
+          title: 'Modal Screen',
+          passProps: {}
+        })
+      }
+    >
+      <Text>Click here to open a modal!</Text>
+    </TouchableOpacity>
   </View>
 );
 

@@ -38,7 +38,10 @@ const TodoItem = ({ todo, onPressComplete, onPressRemove }) => {
       )}
       {isCompleted && (
         <View style={styles.btnGroup}>
-          <TouchableOpacity style={styles.btnContainer}>
+          <TouchableOpacity
+            onPress={() => onPressRemove(todo)}
+            style={styles.btnContainer}
+          >
             <Icon size={15} name={'times'} color={'#fff'} />
           </TouchableOpacity>
         </View>

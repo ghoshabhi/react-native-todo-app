@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView } from 'react-native';
 
-import TodoItem from './TodoItem';
+import TodoItem from '../TodoItem';
 
 const TodoList = props => (
   <ScrollView style={{ flex: 1, padding: 20, margin: 10 }}>
